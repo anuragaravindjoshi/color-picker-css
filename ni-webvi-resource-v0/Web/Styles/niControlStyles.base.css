@@ -1620,6 +1620,7 @@ jqx-color-picker .color-sample:hover {
 
 jqx-color-picker .jqx-drop-down-container > jqx-scroll-viewer {
     border: var(--ni-border);
+    background-color: var(--ni-control-background-color);
 }
 
 jqx-color-picker .jqx-buttons-container > .jqx-action-button {
