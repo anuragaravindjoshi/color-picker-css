@@ -1609,9 +1609,12 @@ jqx-color-picker {
     --jqx-editor-drop-down-button-width: 1.0rem;
 }
 
+jqx-color-picker .jqx-button-element {
+    border: var(--ni-border);
+}
+
 jqx-color-picker .jqx-button-element:hover,
 jqx-color-picker .color-sample:hover {
-    border: var(--ni-border);
     border-color: var(--ni-hover-border-color);
 }
 
