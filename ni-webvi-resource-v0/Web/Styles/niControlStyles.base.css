@@ -1619,6 +1619,10 @@ jqx-color-panel .color-input {
     border: var(--ni-border);
 }
 
+jqx-color-picker .jqx-tooltip-content {
+    visibility: hidden;
+}
+
 jqx-color-picker .jqx-button-element {
     border: var(--ni-border);
     color: var(--ni-black);
