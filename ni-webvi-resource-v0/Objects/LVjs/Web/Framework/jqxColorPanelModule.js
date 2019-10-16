@@ -6,7 +6,7 @@ export class jqxColorPanelModule {
         let properties = {
             'messages': Object.assign({}, JQX.ColorPanel.properties.messages)
         };
-        properties.messages.value.en.customColor = "Custom Color";
+        properties.messages.value.en.customColor = "More colors";
         properties.messages.value.en.ok = "Ok";
         properties.messages.value.en.cancel = "Cancel";
         return properties;

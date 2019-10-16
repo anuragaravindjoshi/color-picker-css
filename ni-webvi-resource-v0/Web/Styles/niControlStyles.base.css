@@ -1593,6 +1593,7 @@ jqx-color-picker .color-picker-sample-container {
     width: 100%;
     height:100%;
     margin-right: 0%;
+    border-radius: 0px;
 }
 
 jqx-color-picker {
@@ -1609,8 +1610,18 @@ jqx-color-picker {
     --jqx-editor-drop-down-button-width: 1.0rem;
 }
 
+jqx-color-panel .color-sample {
+    --jqx-color-panel-grid-mode-item-size: 16px;
+    --jqx-color-panel-font-family: Segoe UI,Tahoma;
+}
+
+jqx-color-panel .color-input {
+    border: var(--ni-border);
+}
+
 jqx-color-picker .jqx-button-element {
     border: var(--ni-border);
+    color: var(--ni-black);
 }
 
 jqx-color-picker .jqx-button-element:hover,
@@ -1624,7 +1635,7 @@ jqx-color-picker .jqx-drop-down-container > jqx-scroll-viewer {
 }
 
 jqx-color-picker .jqx-buttons-container > .jqx-action-button {
-    padding-left: 0%;
+    padding: 1px;
 }
 
 jqx-color-picker:not([animation='none']) .jqx-drop-down-button span {
@@ -1652,6 +1663,10 @@ jqx-color-panel .color-palette-thumb::after,
 jqx-color-panel .hue-scale-thumb,
 jqx-color-panel .alpha-channel-thumb {
     box-sizing: content-box !important;
+}
+
+jqx-color-picker .jqx-drop-down-button[top] span {
+    transform: none;
 }
 
 /*************************************
