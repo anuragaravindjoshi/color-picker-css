@@ -1617,17 +1617,17 @@ jqx-color-panel .color-input {
 }
 
 jqx-color-picker .jqx-tooltip-content {
-    visibility: hidden;
+    display:none;
 }
 
 jqx-color-panel {
     --jqx-color-panel-font-family: Segoe UI,Tahoma;
 }
 
-/* jqx-color-picker .jqx-button-element {
+jqx-color-picker .jqx-button-element {
     border: var(--ni-border);
     color: var(--ni-black);
-} */
+} 
 
 jqx-color-picker .jqx-button-element:hover,
 jqx-color-picker .color-sample:hover {
