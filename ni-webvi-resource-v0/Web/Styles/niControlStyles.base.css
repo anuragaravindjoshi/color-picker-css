@@ -1511,12 +1511,6 @@ ni-cursor-legend jqx-color-picker .jqx-buttons-container > .jqx-action-button {
     min-height: var(--ni-webcharts-legend-dropdown-height);
 }
 
-ni-plot-legend jqx-color-panel .color-controls-container input,
-ni-cursor-legend jqx-color-panel .color-controls-container input {
-    padding: 6px;
-    text-align: right;
-}
-
 ni-plot-legend jqx-drop-down-list,
 ni-cursor-legend jqx-drop-down-list {
     --ni-inner-button-width: 1.5rem;
@@ -1617,16 +1611,23 @@ jqx-color-panel .color-sample {
 
 jqx-color-panel .color-input {
     border: var(--ni-border);
+    margin:3px;
+    height: 30px;
+    width: 70px;
 }
 
 jqx-color-picker .jqx-tooltip-content {
     visibility: hidden;
 }
 
-jqx-color-picker .jqx-button-element {
+jqx-color-panel {
+    --jqx-color-panel-font-family: Segoe UI,Tahoma;
+}
+
+/* jqx-color-picker .jqx-button-element {
     border: var(--ni-border);
     color: var(--ni-black);
-}
+} */
 
 jqx-color-picker .jqx-button-element:hover,
 jqx-color-picker .color-sample:hover {
@@ -1672,6 +1673,13 @@ jqx-color-panel .alpha-channel-thumb {
 jqx-color-picker .jqx-drop-down-button[top] span {
     transform: none;
 }
+
+jqx-color-panel .color-controls-container input,
+jqx-color-panel .color-controls-container input {
+    padding: 6px;
+    text-align: right;
+}
+
 
 /*************************************
 * Array
